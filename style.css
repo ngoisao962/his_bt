@@ -1,0 +1,141 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #F2F2F2;
+}
+p{
+    margin-bottom: 0;
+}
+ul{
+    padding-left: 0 !important;
+}
+li{
+    list-style: none;
+}
+.img-logo{
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.co{
+    width: 30px;
+    height: 20px;
+    object-fit: cover;
+
+}
+.item-out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sign-out{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+   
+    border-radius: 10px;
+}
+.navbar{
+  color: black;
+    padding: 3px !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+    padding: 10px;
+    font-weight: 600;
+    transition: 0.2s all;
+}
+.navbar-light .navbar-nav .nav-item.active {
+    color: #1890ff !important;
+    background-color: #0049b0;
+    
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #1890ff !important;
+    
+}
+
+.box-menu-item{
+    height: 70px;
+    background-color: #0049b0;
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(159, 160, 161, 0.15) 0px 2px 6px 2px;
+}
+.box-menu-item li a{
+    text-decoration: none !important;
+}
+.item-li{
+    margin-left: 10px;
+    height: 55px;
+    padding: 0 12px;
+    box-shadow: rgba(255, 255, 255, 0.533) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 0;
+    color: #fff;
+}
+.item-li a{
+    color: #fff;
+}
+.nav-pills .nav-link.active{
+    background-color: #0049b0;
+    color: #fff !important;
+    border-radius: 0 !important;
+}
+.nav-pills .nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0 !important;
+}
+.navbar{
+    height: 30px;
+}
+.nav{
+    height: 30px;
+}
+.nav .nav-item{
+    height: 100%;
+}
+.nav .nav-item .nav-link{
+    height: 100%;
+}
